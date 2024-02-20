@@ -2726,7 +2726,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #clients .owl-carousel .owl-dots .owl-dot {
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 #clients .owl-carousel .owl-dots .owl-dot span {
   width: 9px;
@@ -3055,6 +3055,7 @@ footer {
 }
 footer a, footer a:visited {
   color: #FFFFFF;
+  text-decoration: underline;
 }
 footer a:hover, footer a:focus {
   color: #e6c16f;
@@ -3148,6 +3149,9 @@ footer h4.h05::after {
   text-align: center;
   font-family: "montserrat-regular", sans-serif;
   font-size: 1.4rem;
+}
+.copyright {
+  color: white;
 }
 .footer-bottom .copyright span {
   display: inline-block;
