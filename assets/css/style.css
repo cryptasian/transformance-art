@@ -121,6 +121,17 @@ html {
   min-height: 100%;
 }
 
+@media (max-width: 768px) {
+  #myVideo {
+    right: unset;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    overflow: hidden;
+    width: 250px;
+  }
+}
+
 #main {
   margin-top: 80px;
 }
