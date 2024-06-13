@@ -2287,6 +2287,25 @@ section {
   font-size: 14px;
 }
 
+.text-overflow-clamp {
+  width: 100%;
+  overflow: hidden;
+ -webkit-box-orient: vertical;
+-webkit-line-clamp: 5;
+display: -webkit-box;
+}
+
+.bio-btn {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #444;
+}
+
+.bio-btn:hover {
+  text-decoration: none;
+  color: #444;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/

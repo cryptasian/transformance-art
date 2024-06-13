@@ -213,3 +213,44 @@
   window.addEventListener('load', initClientsSwiper);
 
 })()
+
+document.getElementById("belle-bio-btn").addEventListener("click", bellebiobtn);
+document.getElementById("ada-bio-btn").addEventListener("click", adabiobtn);
+document.getElementById("alison-bio-btn").addEventListener("click", alisonbiobtn);
+
+function bellebiobtn() {
+  var bio = document.getElementById("belle-bio")
+  var biobtn = document.getElementById("belle-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+function adabiobtn() {
+  var bio = document.getElementById("ada-bio")
+  var biobtn = document.getElementById("ada-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+function alisonbiobtn() {
+  var bio = document.getElementById("alison-bio")
+  var biobtn = document.getElementById("alison-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
