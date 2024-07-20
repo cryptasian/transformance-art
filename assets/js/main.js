@@ -214,10 +214,18 @@
 
 })()
 
-document.getElementById("belle-bio-btn").addEventListener("click", bellebiobtn);
-document.getElementById("ada-bio-btn").addEventListener("click", adabiobtn);
-document.getElementById("alison-bio-btn").addEventListener("click", alisonbiobtn);
-document.getElementById("natalie-bio-btn").addEventListener("click", nataliebiobtn);
+if (document.getElementById("belle-bio-btn")) {
+  document.getElementById("belle-bio-btn").addEventListener("click", bellebiobtn);
+}
+if (document.getElementById("ada-bio-btn")) {
+  document.getElementById("ada-bio-btn").addEventListener("click", adabiobtn);
+}
+if (document.getElementById("alison-bio-btn")) {
+  document.getElementById("alison-bio-btn").addEventListener("click", alisonbiobtn);
+}
+if (document.getElementById("natalie-bio-btn")) {
+  document.getElementById("natalie-bio-btn").addEventListener("click", nataliebiobtn);
+}
 
 function bellebiobtn() {
   var bio = document.getElementById("belle-bio")
