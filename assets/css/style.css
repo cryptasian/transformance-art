@@ -603,6 +603,16 @@ section {
   background-color: #142b2b;
 }
 
+.projects-bg {
+  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/art-therapy.png") center/cover no-repeat;
+}
+
+@media (max-width: 575px) {
+  .projects-bg {
+    background: #142b2b;
+  }
+}
+
 .bg-darkblue {
   background-color: #142b2b;
 }
