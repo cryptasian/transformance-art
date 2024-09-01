@@ -2318,9 +2318,10 @@ section {
 .text-overflow-clamp {
   width: 100%;
   overflow: hidden;
- -webkit-box-orient: vertical;
--webkit-line-clamp: 5;
-display: -webkit-box;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
 }
 
 .bio-btn {
