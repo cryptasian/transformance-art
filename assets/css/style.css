@@ -15,12 +15,17 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #142b2b;
+  font-weight: bold;
   text-decoration: none;
 }
 
+.accordion-body a {
+  text-decoration: underline;
+}
+
 a:hover {
-  color: #45beff;
+  color: #142b2b;
   text-decoration: none;
 }
 
@@ -36,6 +41,18 @@ h6,
 
 html {
   scroll-padding-top: 4rem;
+  overflow-x: hidden;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #e6c16f8a;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #e6c16f8a;
 }
 
 /*--------------------------------------------------------------
@@ -1228,6 +1245,7 @@ section {
 --------------------------------------------------------------*/
 .service-details {
   padding-bottom: 10px;
+  background: #142b2b;
 }
 
 .service-details .card {
