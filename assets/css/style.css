@@ -680,9 +680,16 @@ section {
   margin: 2em;
 }
 
+.partnership-row {
+  flex-direction: row;
+}
+
 @media (max-width: 425px) {
   #about .lead {
     margin: 0;
+  }
+  .partnership-row {
+    flex-direction: column;
   }
 }
 
