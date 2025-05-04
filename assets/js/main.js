@@ -226,6 +226,21 @@ if (document.getElementById("alison-bio-btn")) {
 if (document.getElementById("natalie-bio-btn")) {
   document.getElementById("natalie-bio-btn").addEventListener("click", nataliebiobtn);
 }
+if (document.getElementById("philipwharton-bio-btn")) {
+  document.getElementById("philipwharton-bio-btn").addEventListener("click", philipwhartonbiobtn);
+}
+if (document.getElementById("gregtardy-bio-btn")) {
+  document.getElementById("gregtardy-bio-btn").addEventListener("click", gregtardybiobtn);
+}
+if (document.getElementById("nickkircher-bio-btn")) {
+  document.getElementById("nickkircher-bio-btn").addEventListener("click", nickkircherbiobtn);
+}
+if (document.getElementById("tinahoffmann-bio-btn")) {
+  document.getElementById("tinahoffmann-bio-btn").addEventListener("click", tinahoffmannbiobtn);
+}
+if (document.getElementById("williamthompson-bio-btn")) {
+  document.getElementById("williamthompson-bio-btn").addEventListener("click", williamthompsonbiobtn);
+}
 
 function bellebiobtn() {
   var bio = document.getElementById("belle-bio")
@@ -267,6 +282,71 @@ function alisonbiobtn() {
 function nataliebiobtn() {
   var bio = document.getElementById("natalie-bio")
   var biobtn = document.getElementById("natalie-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function philipwhartonbiobtn() {
+  var bio = document.getElementById("philipwharton-bio")
+  var biobtn = document.getElementById("philipwharton-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function gregtardybiobtn() {
+  var bio = document.getElementById("gregtardy-bio")
+  var biobtn = document.getElementById("gregtardy-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function nickkircherbiobtn() {
+  var bio = document.getElementById("nickkircher-bio")
+  var biobtn = document.getElementById("nickkircher-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function tinahoffmannbiobtn() {
+  var bio = document.getElementById("tinahoffmann-bio")
+  var biobtn = document.getElementById("tinahoffmann-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function williamthompsonbiobtn() {
+  var bio = document.getElementById("williamthompson-bio")
+  var biobtn = document.getElementById("williamthompson-bio-btn")
 
   if (bio.classList.contains('text-overflow-clamp')) {
     bio.classList.remove("text-overflow-clamp")
