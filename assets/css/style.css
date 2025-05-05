@@ -691,7 +691,7 @@ section {
 }
 
 .projects-bg {
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/art-therapy.png") center/cover no-repeat;
+  background: url("../img/kintsugi2.png") center/cover no-repeat;
 }
 
 @media (max-width: 575px) {
