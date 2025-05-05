@@ -62,7 +62,7 @@ html {
 #rotating-word {
   font-weight: bold;
   font-style: italic;
-  color: #ffc107;
+  color: #e6c16f;
   transition: all 0.5s ease-in-out;
 }
 
@@ -485,7 +485,7 @@ html {
   animation-delay: 0.8s;
   border: 2px solid rgb(255 255 255 / 70%);
   background: rgb(20 43 43 / 70%);
-  box-shadow: 1px 4px 30px 0 rgb(255 255 255 / 22%);
+  box-shadow: 2px 2px 12px 0 rgb(255 255 255 / 22%);
   transition: all .4s linear;
 }
 
