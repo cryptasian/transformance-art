@@ -59,6 +59,13 @@ html {
     padding-top: 4em;
 }
 
+#rotating-word {
+  font-weight: bold;
+  font-style: italic;
+  color: #ffc107;
+  transition: all 0.5s ease-in-out;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -134,7 +141,7 @@ html {
   max-height: 50px;
 }
 
-#myVideo {
+#video-desktop {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -143,13 +150,12 @@ html {
 }
 
 @media (max-width: 768px) {
-  #myVideo {
-    right: unset;
+  #video-desktop, #video-mobile {
+    right: 0;
     left: 0;
-    z-index: -1;
-    object-fit: cover;
+    object-fit: contain;
     overflow: hidden;
-    width: 250px;
+    width: 100%;
   }
 }
 
@@ -397,18 +403,33 @@ html {
   right: 0;
 }
 
-#hero h2 {
+#hero h1 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
 
+.letter {
+  opacity: 0;
+  display: inline-block;
+  white-space: pre;
+  transform: translateY(-10px);
+  animation: letterFadeIn 0.4s forwards;
+}
+
+@keyframes letterFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 #hero p {
   width: 80%;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 18px;
 }
 
 #hero .carousel-control-prev,
@@ -459,12 +480,12 @@ html {
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
-  margin: 10px;
+  margin-top: 10px;
   color: #ffffff;
   animation-delay: 0.8s;
   border: 2px solid rgb(255 255 255 / 70%);
   background: rgb(20 43 43 / 70%);
-  box-shadow: 0 10px 30px 0 rgb(255 255 255 / 50%);
+  box-shadow: 1px 4px 30px 0 rgb(255 255 255 / 22%);
   transition: all .4s linear;
 }
 
@@ -527,6 +548,10 @@ html {
   color: #142b2b;
 }
 
+#video-mobile, .hide-desktop {
+    display: none;
+}
+
 @media (min-width: 1024px) {
   #hero p {
     width: 60%;
@@ -536,11 +561,30 @@ html {
   #hero .carousel-control-next {
     width: 5%;
   }
+  #hero {
+    background-color: #152727;
+  }
+  #video-desktop, #video-mobile {
+        width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
   #navbar .btn-get-started {
     margin-left: 10px;
+  }
+  #hero {
+    background-color: #152727;
+    position: static;
+    height: 100%;
+    padding-bottom: 0;
+  }
+  #hero .container {
+        padding-top: 4em;
+        padding-bottom: 12em;
+  }
+  #hero h1 {
+        font-size: 38px;
   }
 }
 
@@ -548,8 +592,30 @@ html {
   #hero {
     position: static;
   }
-  #hero h2 {
+  #hero h1 {
     font-size: 30px;
+  }
+  #video-desktop {
+        display: none;
+  }
+  #video-mobile {
+        display: block;
+        position: absolute;
+  }
+  .hide-desktop {
+        display: contents;
+  }
+  #hero .container {
+        padding-top: 2em;
+        padding-bottom: 20em;
+  }
+  #hero p {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 2em;
+  }
+  #hero .btn-get-started {
+        margin-bottom: 2em;
   }
 }
 

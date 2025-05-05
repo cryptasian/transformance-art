@@ -214,6 +214,33 @@
 
 })()
 
+const rotatingWordContainer = document.getElementById("rotating-word");
+
+if (rotatingWordContainer) {
+  const words = ["dance", "music", "poetry", "sculpture", "theater", "painting", "storytelling", "opera", "photography", "expression!"];
+  let i = 0;
+
+  function animateWord(word) {
+    rotatingWordContainer.innerHTML = ""; // Clear previous content
+
+    word.split("").forEach((char, index) => {
+      const span = document.createElement("span");
+      span.textContent = char;
+      span.className = "letter";
+      span.style.animationDelay = `${index * 0.05}s`;
+      rotatingWordContainer.appendChild(span);
+    });
+  }
+
+  animateWord(words[i]);
+
+  setInterval(() => {
+    i = (i + 1) % words.length;
+    animateWord(words[i]);
+  }, 3000);
+}
+
+
 if (document.getElementById("belle-bio-btn")) {
   document.getElementById("belle-bio-btn").addEventListener("click", bellebiobtn);
 }
@@ -237,6 +264,9 @@ if (document.getElementById("nickkircher-bio-btn")) {
 }
 if (document.getElementById("tinahoffmann-bio-btn")) {
   document.getElementById("tinahoffmann-bio-btn").addEventListener("click", tinahoffmannbiobtn);
+}
+if (document.getElementById("carlahanson-bio-btn")) {
+  document.getElementById("carlahanson-bio-btn").addEventListener("click", carlahansonbiobtn);
 }
 if (document.getElementById("williamthompson-bio-btn")) {
   document.getElementById("williamthompson-bio-btn").addEventListener("click", williamthompsonbiobtn);
@@ -334,6 +364,19 @@ function nickkircherbiobtn() {
 function tinahoffmannbiobtn() {
   var bio = document.getElementById("tinahoffmann-bio")
   var biobtn = document.getElementById("tinahoffmann-bio-btn")
+
+  if (bio.classList.contains('text-overflow-clamp')) {
+    bio.classList.remove("text-overflow-clamp")
+    biobtn.innerHTML = "Read Less"
+  } else {
+    bio.classList.add("text-overflow-clamp")
+    biobtn.innerHTML = "Read More"
+  }
+}
+
+function carlahansonbiobtn() {
+  var bio = document.getElementById("carlahanson-bio")
+  var biobtn = document.getElementById("carlahanson-bio-btn")
 
   if (bio.classList.contains('text-overflow-clamp')) {
     bio.classList.remove("text-overflow-clamp")

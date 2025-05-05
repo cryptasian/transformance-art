@@ -112,13 +112,16 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <video autoplay muted loop id="myVideo">
+    <video autoplay muted loop playsinline id="video-desktop">
       <source src="assets/img/hero-bg.mp4" type="video/mp4">
     </video>
-    <div class="container text-center">
-      <h2 class="animate__animated animate__fadeInDown">Transformation Through Artistic Expression</h2>
-      <p class="animate__animated animate__fadeInUp">Transformance artists build bridges through music and art - creating a world where artistic expression will act as a powerful catalyst for personal and societal wellness.</p>
-      <a href="#about" class="btn-get-started animate__animated animate__fadeInUp">Learn More</a>
+    <video autoplay muted loop playsinline id="video-mobile">
+      <source src="assets/img/hero-bg-mobile.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+      <h1 class="animate__animated animate__fadeInDown">Transformance Art is <span class="hide-desktop" style="color: #ffc107">...<br></span><span id="rotating-word" aria-live="polite"></span></h1>
+      <p class="animate__animated animate__fadeInUp">Creative expression has been shown to reduce stress, build emotional resilience, and promote healing. But the benefits extend beyond the artist - research confirms that simply experiencing the arts can ease depression and strengthen well-being. At Transformance Art, we empower artists to heal through their work and bring transformative arts experiences to the community.</p>
+      <a href="/connect" class="btn-get-started animate__animated animate__fadeInUp">Get Involved</a>
     </div>
   </section><!-- End Hero -->
 
