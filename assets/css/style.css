@@ -962,6 +962,13 @@ section {
   text-transform: uppercase;
 }
 
+.special-title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .why-us .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
