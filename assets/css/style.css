@@ -2599,3 +2599,18 @@ section {
   color: #ffffff;
   font-weight: bold;
 }
+
+.bfa-modal-btn {
+    font-size: 14px;
+    border: 1px solid;
+    padding: 5px 12px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.bfa-artist-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
