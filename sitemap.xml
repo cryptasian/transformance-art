@@ -1,38 +1,45 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://transformanceart.org/</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/about</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/projects</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/events</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/connect</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/beauty-from-ashes</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.80</priority>
-</url>
-<url>
-<loc>https://transformanceart.org/assets/Seven%20Songs%20for%20a%20Dead%20Son%20by%20Janet%20Burroway.pdf</loc>
-<lastmod>2025-08-11T04:04:22+00:00</lastmod>
-<priority>0.64</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://transformanceart.org/</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/about</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/projects</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/events</loc>
+    <lastmod>2025-08-11T04:04:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/connect</loc>
+    <lastmod>2025-08-11T04:04:22+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/beauty-from-ashes</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/wings-of-light</loc>
+    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/assets/Seven%20Songs%20for%20a%20Dead%20Son%20by%20Janet%20Burroway.pdf</loc>
+    <lastmod>2025-08-11T04:04:22+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
 </urlset>
