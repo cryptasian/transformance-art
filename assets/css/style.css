@@ -2436,17 +2436,10 @@ section {
   font-size: 14px;
 }
 
-.text-overflow-clamp {
-  width: 100%;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5;
-  line-clamp: 5;
-}
-
 .bio-btn {
-  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   text-decoration: underline;
   color: #444;
 }
@@ -2454,6 +2447,115 @@ section {
 .bio-btn:hover {
   text-decoration: none;
   color: #444;
+}
+
+#team,
+#advisory-board {
+  scroll-margin-top: 90px;
+}
+
+/*--------------------------------------------------------------
+# Team biographies
+--------------------------------------------------------------*/
+.bio-profile {
+  min-height: 65vh;
+  padding: 70px 0 90px;
+  background:
+    radial-gradient(circle at 90% 10%, rgba(230, 193, 111, 0.18), transparent 28rem),
+    #f7f5ef;
+}
+
+.bio-profile__back {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: #35615a;
+  font-weight: 600;
+}
+
+.bio-profile__back:hover,
+.bio-profile__back:focus {
+  color: #137868;
+}
+
+.bio-profile__photo {
+  overflow: hidden;
+  max-width: 390px;
+  margin: 0 auto;
+  border-radius: 6px;
+  background: #e8e4da;
+  box-shadow: 0 20px 45px rgba(20, 43, 43, 0.16);
+}
+
+.bio-profile__photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bio-profile__eyebrow {
+  margin-bottom: 0.6rem;
+  color: #137868;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.bio-profile h1 {
+  margin-bottom: 0.45rem;
+  color: #142b2b;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-weight: 300;
+  line-height: 1.05;
+}
+
+.bio-profile__role {
+  margin-bottom: 2rem;
+  color: #8d6b20;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.bio-profile__body {
+  color: #465454;
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+.bio-profile__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.bio-profile__links a {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  border: 1px solid #b8c8c4;
+  border-radius: 999px;
+  color: #35615a;
+  font-weight: 600;
+}
+
+.bio-profile__links a:hover,
+.bio-profile__links a:focus {
+  border-color: #137868;
+  color: #137868;
+}
+
+@media (max-width: 991px) {
+  .bio-profile {
+    padding-top: 45px;
+  }
+
+  .bio-profile__content {
+    padding-top: 2.5rem;
+  }
 }
 
 /*--------------------------------------------------------------
