@@ -713,6 +713,7 @@ section {
   padding-bottom: 30px;
 }
 
+.section-title h1,
 .section-title h2 {
   font-size: 28px;
   font-weight: 400;
@@ -722,6 +723,7 @@ section {
   text-transform: uppercase;
 }
 
+.section-title h1::before,
 .section-title h2::before {
   content: "";
   position: absolute;
@@ -733,6 +735,7 @@ section {
   left: calc(50% - 60px);
 }
 
+.section-title h1::after,
 .section-title h2::after {
   content: "";
   position: absolute;
@@ -746,6 +749,36 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+
+.project-support-callout {
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+  padding: 0.9rem 1rem;
+  border-left: 4px solid #e6c16f;
+  border-radius: 4px;
+  background: #fff8e7;
+  color: #3e4949;
+}
+
+.project-support-callout > i {
+  flex: 0 0 auto;
+  margin-top: 0.1rem;
+  color: #8d6b20;
+  font-size: 1.4rem;
+}
+
+.project-support-callout a {
+  color: #137868;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.project-support-callout a:hover,
+.project-support-callout a:focus {
+  color: #0d5549;
 }
 
 #about .lead {
