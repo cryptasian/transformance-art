@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://transformanceart.org/</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
@@ -64,27 +64,42 @@
   </url>
   <url>
     <loc>https://transformanceart.org/projects</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-23T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/kintsugi</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://transformanceart.org/events</loc>
-    <lastmod>2025-08-11T04:04:22+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://transformanceart.org/connect</loc>
-    <lastmod>2025-08-11T04:04:22+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/privacy</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+    <priority>0.50</priority>
   </url>
   <url>
     <loc>https://transformanceart.org/beauty-from-ashes</loc>
-    <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://transformanceart.org/wings-of-light</loc>
+    <loc>https://transformanceart.org/beauty-from-ashes-program</loc>
     <lastmod>2026-08-18T00:00:00+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://transformanceart.org/wings-of-light</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>

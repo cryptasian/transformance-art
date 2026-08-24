@@ -262,3 +262,16 @@ if (eventsLoadMoreButton) {
     }
   });
 }
+
+const siteFooterCopyright = document.querySelector("#footer .copyright");
+
+if (siteFooterCopyright && !siteFooterCopyright.querySelector(".footer-privacy-link")) {
+  const privacyLine = document.createElement("p");
+  const privacyLink = document.createElement("a");
+
+  privacyLine.className = "footer-privacy-link";
+  privacyLink.href = "privacy";
+  privacyLink.textContent = "Privacy Policy";
+  privacyLine.appendChild(privacyLink);
+  siteFooterCopyright.appendChild(privacyLine);
+}
