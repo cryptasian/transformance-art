@@ -240,6 +240,29 @@ if (rotatingWordContainer) {
   }, 3000);
 }
 
+const eventsLoadMoreButton = document.getElementById("events-load-more");
+
+if (eventsLoadMoreButton) {
+  const extraEvents = document.querySelectorAll(".past-event--extra, .past-event-year--extra");
+  const eventsLoadStatus = document.getElementById("events-load-status");
+
+  extraEvents.forEach((event) => {
+    event.hidden = true;
+  });
+  eventsLoadMoreButton.hidden = false;
+
+  eventsLoadMoreButton.addEventListener("click", () => {
+    extraEvents.forEach((event) => {
+      event.hidden = false;
+    });
+    eventsLoadMoreButton.hidden = true;
+
+    if (eventsLoadStatus) {
+      eventsLoadStatus.textContent = "All 16 past events are now visible.";
+    }
+  });
+}
+
 
 if (document.getElementById("belle-bio-btn")) {
   document.getElementById("belle-bio-btn").addEventListener("click", bellebiobtn);

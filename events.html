@@ -62,7 +62,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css?v=20260823" rel="stylesheet">
 
   <!-- favicons
 	================================================== -->
@@ -128,80 +128,200 @@
   </header><!-- End Header -->
 
   <main id="main">
-    <!-- ======= Service Details Section ======= -->
-    <section class="service-details">
-    <!--<div class="section-title text-white">
-        <h2>Upcoming Event</h2>
-      </div>
+    <section class="events-page">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 offset-md-3 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/beauty-from-ashes.png" alt="Regency Soirée Event">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Beauty from Ashes | Sept. 20, 2025</h5>
-                <p class="card-text">Music, dance, painting, and poetry are powerful mediums for expressing one's deepest emotions. Whether navigating the journey through depression and overcoming suicidal thoughts, surviving the loss of a loved one, or any stage in between, art serves as a vital tool for communication. It helps people find hope, healing, and restoration.</p>
-                <p class="card-text">Join us for an artistic evening where stories of suicide survival are told through music, dance, and art.</p>
-                <p class="description"><a href="https://maps.app.goo.gl/Z3rdfVbPXVDZkEwB8" target="_blank"><i class='bx bx-map'></i> The Square Room: 4 Market Square, Knoxville, TN 37902</a></p>
-                <p class="description"><i class='bx bx-calendar'></i> September 20, 2025</p>
-                <p class="description"><i class='bx bx-time-five' ></i> 7:00 PM</p>
-                <p class="description"><i class="bi bi-ticket"></i> $35 General | $50 VIP</p>
-                <div class="text-center">
-                    <a href="beauty-from-ashes" class="basic-btn">Project Info</a><a href="https://givebutter.com/beauty-from-ashes-2025-09-20" class="yellow-btn">Buy Tickets</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="section-title text-white">
+          <h2>Upcoming Event</h2>
         </div>
-      </div>-->
-      <div class="section-title text-white">
-        <h2>Past Events</h2>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/beauty-from-ashes.jpg" alt="Beauty from Ashes Event">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Beauty from Ashes | Sept. 20, 2025</h5>
-                <p class="card-text">Music, dance, painting, and poetry are powerful mediums for expressing one's deepest emotions. Whether navigating the journey through depression and overcoming suicidal thoughts, surviving the loss of a loved one, or any stage in between, art serves as a vital tool for communication. It helps people find hope, healing, and restoration.</p>
-              </div>
-            </div>
+
+        <article class="upcoming-event" data-aos="fade-up">
+          <div class="upcoming-event__image">
+            <img src="assets/img/wings-of-light-2026.png" alt="A family walking through a sunlit field for Wings of Light">
           </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/regency-soiree.png" alt="Regency Soirée Event">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Regency Soirée | Nov. 10, 2024</h5>
-                <p class="card-text">A Bridgerton-inspired fundraiser ball that featured live music and dance performances, a dance lesson (provided by <a href="https://marblecityballroom.com/" target="_blank">Marble City Ballroom</a>), signature cocktails, light hors d'oeuvres and a silent auction.</p>
-                <p class="card-text">The proceeds of this event are dedicated to the development of our 2025 project "<a href="/beauty-from-ashes" target="_blank">Beauty from Ashes: A Concert of Survival and Hope</a>".</p>
-                <div class="text-center">
-                  <a href="https://photos.app.goo.gl/kG9syhJNVdesxs2Y6" target="_blank" class="basic-btn">Photo Gallery</a>
+          <div class="upcoming-event__content">
+            <p class="event-kicker">The Second Meraki Project</p>
+            <h1>Wings of Light</h1>
+            <p class="upcoming-event__subtitle">A Meraki Remembrance</p>
+            <p>A free community evening of remembrance, hope, and healing in recognition of Pregnancy &amp; Infant Loss Remembrance Day.</p>
+            <ul class="event-meta">
+              <li><i class="bx bx-calendar" aria-hidden="true"></i> Thursday, October 15, 2026 at 5:00 PM</li>
+              <li><i class="bx bx-map" aria-hidden="true"></i> 4775 New Harvest Ln, Knoxville, TN 37918</li>
+            </ul>
+            <a href="wings-of-light" class="yellow-btn upcoming-event__button">Event Details</a>
+          </div>
+        </article>
+
+        <div class="section-title text-white past-events-heading">
+          <h2>Past Events</h2>
+          <p>Workshops, performances, and community gatherings—newest to oldest.</p>
+        </div>
+
+        <div id="past-events" class="past-events" aria-live="polite">
+          <section class="past-event-year" aria-labelledby="events-2026">
+            <h3 id="events-2026">2026</h3>
+            <div class="past-event-list">
+              <article class="past-event">
+                <time datetime="2026-08-07"><span>Aug</span><strong>07</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1662096225351673/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
                 </div>
-              </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1662096225351673/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event">
+                <time datetime="2026-05-07"><span>May</span><strong>07</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1279260807189445/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1279260807189445/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event">
+                <time datetime="2026-02-25"><span>Feb</span><strong>25</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/2250599882096276/" target="_blank" rel="noopener noreferrer">Beautifully Broken Kintsugi Workshop – The Art of Precious Scars</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> The Kraken's Cup Tearoom · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/2250599882096276/" target="_blank" rel="noopener noreferrer" aria-label="View Beautifully Broken Kintsugi Workshop on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event">
+                <time datetime="2026-02-05"><span>Feb</span><strong>05</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/906085828555378/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/906085828555378/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
             </div>
-          </div>
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="card">
-              <div class="card-img">
-                <img src="assets/img/nuevo-tango.png" alt="Nuevo Tango Event">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Nuevo Tango | April 16, 2023</h5>
-                <p class="card-text">A celebration of the Tango-inspired compositions of the exceptional Argentinian composer, Astor Piazzolla. Participants were immersed in an evening of beautiful Chamber Music, Tango dances accompanied by live music, and a Social Dance Party. This was truly a one-of-a-kind Chamber Music concert, where two art forms collided to create an experience unlike any other.</p>
-                <p class="card-text">The proceeds of this event covered the expenses for all the necessary filings to become a 501(c)(3) nonprofit recognized by the IRS!</p>
-              </div>
+          </section>
+
+          <section class="past-event-year" aria-labelledby="events-2025">
+            <h3 id="events-2025">2025</h3>
+            <div class="past-event-list">
+              <article class="past-event">
+                <time datetime="2025-10-07"><span>Oct</span><strong>07</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/2557222624624715/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/2557222624624715/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--featured">
+                <time datetime="2025-09-20"><span>Sep</span><strong>20</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="beauty-from-ashes">Beauty from Ashes: A Concert of Survival and Hope</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> The Square Room · Knoxville</p>
+                </div>
+                <div class="past-event__actions">
+                  <a class="past-event__link" href="beauty-from-ashes" aria-label="Explore Beauty from Ashes"><i class="bx bx-photo-album" aria-hidden="true"></i><span>Explore</span></a>
+                  <a class="past-event__link" href="https://www.facebook.com/events/720260447262401/" target="_blank" rel="noopener noreferrer" aria-label="View Beauty from Ashes on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+                </div>
+              </article>
+              <article class="past-event">
+                <time datetime="2025-08-14"><span>Aug</span><strong>14</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1708444180557579/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Orange Hat Brewing Company</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Orange Hat Brewing Company · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1708444180557579/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Orange Hat Brewing Company on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event">
+                <time datetime="2025-08-05"><span>Aug</span><strong>05</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1210096127252766/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1210096127252766/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-06-26"><span>Jun</span><strong>26</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1911130889659474/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Orange Hat Brewing Company</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Orange Hat Brewing Company · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1911130889659474/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Orange Hat Brewing Company on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-05-30"><span>May</span><strong>30</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/537626425688850/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Printshop Beer Co.</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Printshop Beer Co. · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/537626425688850/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Printshop Beer Company on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-05-07"><span>May</span><strong>07</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1181298963230696/" target="_blank" rel="noopener noreferrer">Beautifully Broken – The Japanese Art of Kintsugi</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> The Kraken's Cup Tearoom · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1181298963230696/" target="_blank" rel="noopener noreferrer" aria-label="View Beautifully Broken Kintsugi Workshop on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-04-09"><span>Apr</span><strong>09</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/618986924338106/" target="_blank" rel="noopener noreferrer">Beautifully Broken – The Japanese Art of Kintsugi</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> The Kraken's Cup Tearoom · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/618986924338106/" target="_blank" rel="noopener noreferrer" aria-label="View Beautifully Broken Kintsugi Workshop on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-04-01"><span>Apr</span><strong>01</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/652155580503431/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Calamity's Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Calamity’s Coffee · Oak Ridge</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/652155580503431/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Calamity's Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+              <article class="past-event past-event--extra">
+                <time datetime="2025-03-22"><span>Mar</span><strong>22</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/1886581368594562/" target="_blank" rel="noopener noreferrer">Kintsugi Workshop @ Likewise Coffee</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> Likewise Coffee · Knoxville</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/1886581368594562/" target="_blank" rel="noopener noreferrer" aria-label="View Kintsugi Workshop at Likewise Coffee on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
             </div>
-          </div>
+          </section>
+
+          <section class="past-event-year past-event-year--extra" aria-labelledby="events-2024">
+            <h3 id="events-2024">2024</h3>
+            <div class="past-event-list">
+              <article class="past-event past-event--featured">
+                <time datetime="2024-11-10"><span>Nov</span><strong>10</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/2222235144777688/" target="_blank" rel="noopener noreferrer">Regency Soirée</a></h4>
+                  <p><i class="bx bx-map" aria-hidden="true"></i> 6804 Baum Dr · Knoxville</p>
+                </div>
+                <div class="past-event__actions">
+                  <a class="past-event__link" href="https://photos.app.goo.gl/kG9syhJNVdesxs2Y6" target="_blank" rel="noopener noreferrer" aria-label="View Regency Soirée photo gallery"><i class="bx bx-photo-album" aria-hidden="true"></i><span>Photos</span></a>
+                  <a class="past-event__link" href="https://www.facebook.com/events/2222235144777688/" target="_blank" rel="noopener noreferrer" aria-label="View Regency Soirée on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section class="past-event-year past-event-year--extra" aria-labelledby="events-2023">
+            <h3 id="events-2023">2023</h3>
+            <div class="past-event-list">
+              <article class="past-event past-event--featured">
+                <time datetime="2023-04-16"><span>Apr</span><strong>16</strong></time>
+                <div class="past-event__content">
+                  <h4><a href="https://www.facebook.com/events/564531958954226/" target="_blank" rel="noopener noreferrer">Nuevo Tango: Celebrating the Tango-Inspired Works of Piazzolla</a></h4>
+                  <p>An immersive evening of chamber music, tango dance, and community.</p>
+                </div>
+                <a class="past-event__link" href="https://www.facebook.com/events/564531958954226/" target="_blank" rel="noopener noreferrer" aria-label="View Nuevo Tango on Facebook"><i class="bx bxl-facebook" aria-hidden="true"></i><span>View event</span></a>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <div class="events-load-more-wrap">
+          <button id="events-load-more" class="yellow-btn events-load-more" type="button" aria-controls="past-events" hidden>Load More Events</button>
+          <span id="events-load-status" class="visually-hidden" aria-live="polite"></span>
         </div>
       </div>
-    </section><!-- End Service Details Section -->
+    </section>
 
   </main><!-- End #main -->
 
@@ -256,7 +376,7 @@
   <script src="assets/vendor/waypoints/noframework.waypoints.js" defer></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/main.js?v=20260823" defer></script>
 
 </body>
 
