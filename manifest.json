@@ -1,5 +1,13 @@
 {
- "name": "App",
+ "name": "Transformance Art",
+ "short_name": "Transformance Art",
+ "description": "Healing arts experiences that support individual and collective wellness.",
+ "id": "/",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "background_color": "#142b2b",
+ "theme_color": "#142b2b",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
