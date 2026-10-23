@@ -258,7 +258,7 @@ if (eventsLoadMoreButton) {
     eventsLoadMoreButton.hidden = true;
 
     if (eventsLoadStatus) {
-      eventsLoadStatus.textContent = "All 16 past events are now visible.";
+      eventsLoadStatus.textContent = `All ${document.querySelectorAll(".past-event").length} past events are now visible.`;
     }
   });
 }
